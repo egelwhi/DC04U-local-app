@@ -1,0 +1,13 @@
+{
+  "name": "dc04u-local-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone local DC04U control panel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^45.1.0"
+  }
+}

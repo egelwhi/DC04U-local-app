@@ -1,0 +1,1 @@
+import{z as t,v as e,w as i,y as n,x as r}from"./index-CBVDh9A1.js";const d={getTagList(){return t("/app-api/eq/tag/list")}},p={getList(){return r("/admin-api/eq/tag/list")},create(a){return n("/admin-api/eq/tag/create",a)},update(a){return i("/admin-api/eq/tag/update",a)},delete(a){return e("/admin-api/eq/tag/delete",{id:a})}};export{p as a,d as t};

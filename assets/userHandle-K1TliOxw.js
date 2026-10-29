@@ -1,0 +1,1 @@
+const o="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";function r(e){if(!e||e<=0)return"000000";let t=e+916132832,n="";for(;t>0;)n=o[t%62]+n,t=Math.floor(t/62);return n.padStart(6,"0")}export{r as e};
