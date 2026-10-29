@@ -7,7 +7,7 @@ A standalone Electron wrapper for iBasso DC04U control-panel frontend. The packa
 
 # Why making this project?
 
-Currently, the web panel for iBasso device is very slow, Largest Contentful Paint (LCP) can up to around 80 seconds. To solve this problem, I decide to vibe something out, and make a local app for iBasso DC04U. This project is fully vibe coded, Please be aware !
+Currently, the web panel for iBasso device is very slow, Largest Contentful Paint (LCP) can up to 80 seconds. To solve this problem, I decide to vibe something out, and make a local app for iBasso DC04U. This project is fully vibe coded, Please be aware !
 
 ## Requirements
 

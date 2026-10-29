@@ -5,9 +5,36 @@
   "description": "Standalone local DC04U control panel",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^45.1.0"
+    "electron": "^45.1.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.dc04u.localapp",
+    "productName": "DC04U Local App",
+    "files": [
+      "index.html",
+      "main.js",
+      "local-overrides.js",
+      "ibasso.png",
+      "assets/**/*",
+      "images/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
   }
 }
